@@ -1,0 +1,60 @@
+
+main {
+    font-size: 40px;
+}
+*{
+    font-size: 16px;
+    margin: 0%;
+    paddin: 0;
+}
+p {
+    /* font-size: 20px; */
+    /* font-size: 1em; <-- bezieht sich aufs eltern element */
+    /* font-size: 0,5rem; <-- bezieht sich aufs root elment */
+    /* font-size: 10%; <-- bezieht sich aufs eltern  */
+}
+
+div {
+    background-color: aquamarine;
+    height: 50px;
+    margin: 20px 0;
+}
+div:last-child {
+    width: 300px;
+}
+div:nth-child(2) {
+    width: 50%;
+    background-color: aqua;
+}
+footer {
+    width: 50vw;
+    background-color: yellow;
+}
+
+/* es gibt noch 'vh' = viewport height,  */
+
+section {
+    height: 100vh;
+    background-color: pink;
+    padding: 30vh;
+    overflow: hidden;
+}
+article {
+    color:  #abefe4;
+}
+article::first-letter {
+    font-size: 5rem;
+    padding: 10px;
+    color: rgba(120, 0, 217, 0,5);
+}
+header {
+
+    
+}
+header img {
+    width: 100%;
+    opacity: 0.5;
+    filter: blur(50%);
+    /* max-width: 100%;
+    height: auto; */
+}
