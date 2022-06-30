@@ -1,19 +1,18 @@
-
 main {
     font-size: 40px;
 }
 *{
     font-size: 16px;
     margin: 0%;
-    paddin: 0;
+    padding: 0;
 }
-p {
-    /* font-size: 20px; */
-    /* font-size: 1em; <-- bezieht sich aufs eltern element */
-    /* font-size: 0,5rem; <-- bezieht sich aufs root elment */
-    /* font-size: 10%; <-- bezieht sich aufs eltern  */
-}
-
+/* p {
+    font-size: 20px; 
+    font-size: 1em; <-- bezieht sich aufs eltern element 
+    font-size: 0,5rem; <-- bezieht sich aufs root elment 
+    font-size: 10%; <-- bezieht sich aufs eltern  
+}*/
+ */
 div {
     background-color: aquamarine;
     height: 50px;
@@ -46,10 +45,6 @@ article::first-letter {
     font-size: 5rem;
     padding: 10px;
     color: rgba(120, 0, 217, 0,5);
-}
-header {
-
-    
 }
 header img {
     width: 100%;
